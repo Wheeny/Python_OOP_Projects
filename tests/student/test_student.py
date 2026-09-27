@@ -39,7 +39,7 @@ class TestStudent(unittest.TestCase):
         self.assertEqual(student.name, "Cara")
 
 
-    def test_student_introduction(self):
+    def test_student_graduation(self):
         student = Student("Winifred")
         for count in range(11):
             student.promote()
